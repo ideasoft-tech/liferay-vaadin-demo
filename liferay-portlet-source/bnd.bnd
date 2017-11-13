@@ -1,0 +1,7 @@
+Bundle-Name: ${project.name}
+Bundle-Version: ${project.version}
+Bundle-SymbolicName: ${project.groupId}.${project.artifactId}
+Export-Package: ids.test.vaadin.liferay
+Import-Package: !com.google*,\
+    !com.vaadin.client*,\
+    *
